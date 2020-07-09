@@ -36,10 +36,11 @@
 
  #wrapper {
      text-align: center;
-     padding: 32px;
+     padding: 20px;
  }
 
  #wrapper img {
+    margin-top: 10px;
     border-radius: 50%;
     border: 5px solid var(--green);
  }
@@ -52,17 +53,28 @@
 
  #wrapper p {
      max-width: 500px;
-     margin: 34px auto;
-     line-height: 34px;
+     margin: 24px auto;
+     line-height: 20px;
  }
 
  #wrapper ul {
     max-width: 500px;
-    margin: 0px auto;
-    line-height: 34px;
+    margin: 24px auto;
+    line-height: 24px;
  }
 
  #wrapper li {
      max-width: 100px;
      margin: 0px auto;
+ }
+
+ #social {
+    text-align: center;
+    padding: 0px 500px;
+    margin: 0px auto;
+ }
+
+ #social img {
+    max-width: 30px;
+    padding: 20px;
  }
