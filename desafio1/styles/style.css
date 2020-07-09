@@ -57,6 +57,16 @@
      line-height: 20px;
  }
 
+ #wrapper a {
+     text-decoration: none;
+     color: white;
+ }
+
+ #wrapper a:hover {
+    color: var(--green);
+    transition: 200ms;
+ }
+
  #wrapper ul {
     max-width: 500px;
     margin: 24px auto;
@@ -75,6 +85,11 @@
  }
 
  #social img {
-    max-width: 30px;
+    max-width: 25px;
     padding: 20px;
+    transition: background-color 200ms;
+ }
+
+ #social img:hover {
+    background-color: var(--green);
  }
