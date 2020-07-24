@@ -2,6 +2,7 @@
 
 :root {
     --green: #50fa7b;
+    --purple: #7159c1;
 }
 
 * {
@@ -87,6 +88,7 @@
  #social img {
     max-width: 25px;
     padding: 20px;
+    border-radius: 20px;
     transition: background-color 200ms;
  }
 
