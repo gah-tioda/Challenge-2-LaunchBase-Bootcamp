@@ -3,6 +3,7 @@
 :root {
     --green: #50fa7b;
     --purple: #7159c1;
+    --grey: #333;
 }
 
 * {
@@ -17,7 +18,7 @@
  }
  header {
      padding: 30px;
-     border-bottom: 1px solid #333;
+     border-bottom: 1px solid var(--grey);
      background: rgba(0, 0, 0, 0.274)
  }
  header div {
@@ -94,4 +95,52 @@
 
  #social img:hover {
     background-color: var(--green);
+ }
+
+ /*====== CARDS ======*/
+
+ .cards {
+     max-width: 800px;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 20px;
+ }
+
+ .card {
+     margin-top: 30px;
+     border-radius: 50px;
+     background-color: var(--grey);
+ }
+
+ .image-starter img {
+     width: 50%;
+     margin: 50px;
+     padding: 10px;
+ }
+
+ .image-launch img {
+     width: 86%;
+     margin: 50px 100px 50px 21px;
+     padding: 10px 0px 10px 0px;
+}
+
+.image-stack img {
+    width: 60%;
+    margin: 50px 30px 50px 43px;
+    padding: 10px;
+}
+
+ .content {
+     display: grid;
+     grid-template-columns: 1fr;
+ }
+
+ .content p {
+     padding: 10px;
+     margin: 10px;
+ }
+
+ .price {
+     margin: 10px;
  }
